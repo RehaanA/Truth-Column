@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA22D12F1EDBED5100018173 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA22D12E1EDBED5100018173 /* ResultTableViewCell.swift */; };
+		AA5D53E71ED6030800EEFD23 /* TruthColumnDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D53E61ED6030800EEFD23 /* TruthColumnDetailViewController.swift */; };
+		AA5D53E91ED6048200EEFD23 /* TruthColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D53E81ED6048200EEFD23 /* TruthColumn.swift */; };
 		AA76D7211ED355E10090306A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76D7201ED355E10090306A /* AppDelegate.swift */; };
 		AA76D7231ED355E10090306A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76D7221ED355E10090306A /* ViewController.swift */; };
 		AA76D7261ED355E10090306A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA76D7241ED355E10090306A /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		AA76D72B1ED355E10090306A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA76D7291ED355E10090306A /* LaunchScreen.storyboard */; };
 		AA76D7361ED355E10090306A /* Truth_ColumnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76D7351ED355E10090306A /* Truth_ColumnTests.swift */; };
 		AA76D7411ED355E10090306A /* Truth_ColumnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76D7401ED355E10090306A /* Truth_ColumnUITests.swift */; };
+		AA76D74F1ED35A110090306A /* TruthColumnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76D74E1ED35A110090306A /* TruthColumnTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA22D12E1EDBED5100018173 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		AA5D53E61ED6030800EEFD23 /* TruthColumnDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruthColumnDetailViewController.swift; sourceTree = "<group>"; };
+		AA5D53E81ED6048200EEFD23 /* TruthColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruthColumn.swift; sourceTree = "<group>"; };
 		AA76D71D1ED355E10090306A /* Truth Column.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truth Column.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA76D7201ED355E10090306A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA76D7221ED355E10090306A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		AA76D73C1ED355E10090306A /* Truth ColumnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truth ColumnUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA76D7401ED355E10090306A /* Truth_ColumnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truth_ColumnUITests.swift; sourceTree = "<group>"; };
 		AA76D7421ED355E10090306A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA76D74E1ED35A110090306A /* TruthColumnTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruthColumnTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				AA76D7201ED355E10090306A /* AppDelegate.swift */,
 				AA76D7221ED355E10090306A /* ViewController.swift */,
+				AA5D53E61ED6030800EEFD23 /* TruthColumnDetailViewController.swift */,
+				AA22D12E1EDBED5100018173 /* ResultTableViewCell.swift */,
+				AA5D53E81ED6048200EEFD23 /* TruthColumn.swift */,
+				AA76D74E1ED35A110090306A /* TruthColumnTableViewCell.swift */,
 				AA76D7241ED355E10090306A /* Main.storyboard */,
 				AA76D7271ED355E10090306A /* Assets.xcassets */,
 				AA76D7291ED355E10090306A /* LaunchScreen.storyboard */,
@@ -263,7 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA76D7231ED355E10090306A /* ViewController.swift in Sources */,
+				AA5D53E91ED6048200EEFD23 /* TruthColumn.swift in Sources */,
+				AA76D74F1ED35A110090306A /* TruthColumnTableViewCell.swift in Sources */,
 				AA76D7211ED355E10090306A /* AppDelegate.swift in Sources */,
+				AA22D12F1EDBED5100018173 /* ResultTableViewCell.swift in Sources */,
+				AA5D53E71ED6030800EEFD23 /* TruthColumnDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +532,7 @@
 				AA76D7471ED355E10090306A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA76D7481ED355E10090306A /* Build configuration list for PBXNativeTarget "Truth ColumnTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				AA76D74A1ED355E10090306A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA76D74B1ED355E10090306A /* Build configuration list for PBXNativeTarget "Truth ColumnUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				AA76D74D1ED355E10090306A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
